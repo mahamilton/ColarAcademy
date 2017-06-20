@@ -1,0 +1,134 @@
+html body{
+	font-size: 18px
+	font:Helvetica;
+}
+
+header nav{
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	align-items: flex-end;
+}
+
+header nav li{
+	display: inline;
+	margin-right: .88rem;
+}
+
+header .hero-flex{
+	display: flex;
+	width: 100%;
+	align-items: space-between;
+	background-color: lightgrey;
+	height: 500px;
+}
+
+header .hero-flex img{
+	width: 60%;
+	height: auto;
+	margin: 0 auto;
+	padding: 32px 20px 32px 24px;
+	position: cover;
+}
+
+header .hero-flex .hero-text{
+	justify-content: center;
+	padding: 20px;
+	text-align: center;
+	width: 40%;
+}
+
+.hero-text h1{
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.hero-text p{
+	font-size: 24px;
+}
+
+.hero-text span{
+	font-size: 20px;
+	background-color: darkslategray;
+	color: white;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 30%;
+	padding-left: 30%;
+}
+
+content .main{
+	display: flex;
+	flex-wrap: nowrap;
+	width: 100%;
+}
+
+content .practice-flex{
+	width: 65%;
+	padding: 32px 24px;
+}
+
+content .practice-flex img{
+	width: 100%;
+}
+
+.main .intro-flex{
+	display: inline;
+	width: 35%;
+}
+
+.intro-flex .item{
+	border: solid;
+}
+
+content .item{
+	display: flex;
+	padding: 16px;
+}
+
+content .info-flex .item{
+	border: solid lightgray 2px;
+	width: 423px;
+}
+
+content .item #info{
+	display: flex;
+	flex-flow: column;
+	padding:16px;
+	text-align: left;
+}
+
+content .item img{
+	width: 35%;
+	height: 148px;
+	align-items: center;
+}
+
+content .item h1{
+	font-size: 24px;
+}
+
+content .item p, span{
+	font-size: 14px;
+}
+
+.learning-flex{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.learning-flex h2{
+	width: 100%;
+}
+ .learning-flex img{
+ 	height: 180px;
+ 	width: 240px;
+ }
+
+.learning-flex .software, .computer{
+	display: flex;
+	flex-direction: column;
+}
+}
+
